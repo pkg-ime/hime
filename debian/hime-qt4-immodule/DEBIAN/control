@@ -1,0 +1,15 @@
+Package: hime-qt4-immodule
+Source: hime
+Version: 0.9.9-1
+Architecture: amd64
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Installed-Size: 111
+Depends: hime (>= 0.9.9-1), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1)
+Section: utils
+Priority: optional
+Homepage: http://hime.luna.com.tw
+Description: Qt4 input method module with HIME as backend
+ HIME Input Method Editor is a input method platform, which is forked
+ from the famous gcin input method.
+ .
+ This package is the Qt4 input method module (immodule) for HIME.

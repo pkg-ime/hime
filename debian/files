@@ -1,0 +1,8 @@
+hime_0.9.9-1_amd64.deb utils optional
+hime-data_0.9.9-1_all.deb utils optional
+hime-tables_0.9.9-1_amd64.deb utils optional
+hime-dev_0.9.9-1_all.deb devel optional
+hime-qt4-immodule_0.9.9-1_amd64.deb utils optional
+hime-gtk3-immodule_0.9.9-1_amd64.deb utils optional
+hime-anthy_0.9.9-1_amd64.deb utils optional
+hime-chewing_0.9.9-1_amd64.deb utils optional

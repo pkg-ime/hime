@@ -1,0 +1,15 @@
+Package: hime-gtk3-immodule
+Source: hime
+Version: 0.9.9-1
+Architecture: amd64
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Installed-Size: 92
+Depends: hime (>= 0.9.9-1), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0)
+Section: utils
+Priority: optional
+Homepage: http://hime.luna.com.tw
+Description: GTK3 input method module with HIME as backend
+ HIME Input Method Editor is a input method platform, which is forked
+ from the famous gcin input method.
+ .
+ This package is the GTK3 input method module (immodule) for HIME.

@@ -1,0 +1,15 @@
+Package: hime-data
+Source: hime
+Version: 0.9.9-1
+Architecture: all
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Installed-Size: 719
+Section: utils
+Priority: optional
+Homepage: http://hime.luna.com.tw
+Description: icons, locales and scripts for HIME
+ HIME Input Method Editor is a input method platform, which is forked
+ from the famous gcin input method.
+ .
+ This package contains icons, locales, scripts and other architecture-
+ independent things.

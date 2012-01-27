@@ -1,0 +1,14 @@
+Package: hime-tables
+Source: hime
+Version: 0.9.9-1
+Architecture: amd64
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Installed-Size: 7037
+Section: utils
+Priority: optional
+Homepage: http://hime.luna.com.tw
+Description: input method tables for HIME
+ HIME Input Method Editor is a input method platform, which is forked
+ from the famous gcin input method.
+ .
+ This package contains architecture-dependent input method tables.

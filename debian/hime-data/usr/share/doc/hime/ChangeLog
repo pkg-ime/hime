@@ -1,0 +1,84 @@
+0.9.9
+
+ [ Enhancement ]
+ * Improve chewing key handler and 64 bit compatibility (Cheng-Wei Lin)
+ * #110: Support libappindicator, aka Ubuntu Unity tray (Tommy Tsim)
+ * Improve tray behavior and associated settings (Tommy Tsim)
+ * More user-friendly build system (letoh, b4283)
+ * #71: Clarify license of ar30.cin and ar30-big.cin (Ming-Te Liao)
+ * More user-friendly UI (Tommy Tsim, Tetralet, Dieter Hsu, taylorchu)
+ * Improve Bopomofo and Tsin database (Vdragon, Franklin Weng, petercommand, maxwux)
+ * Improve compatibility of gtab2cin (solomonhuang)
+ * Improve half-width and double-width related issues (Tetralet)
+ * #7: New icon sets (Tetralet)
+ * #61: Provide rpm packaging solution (Dieter Hsu)
+ * Provide rxvt-unicode patch to drop XIM dependency (kanru)
+ * Sync with gcin 2.7.0, thanks to Edward Der-Hua Liu
+ * #37: Add missing manpages (Yao Wei)
+ * Provide some developing related tools (Tetralet, caleb-)
+
+ [ Bug fix ]
+ * Fix buffer flushing problem while toggling module IMs (Cheng-Wei Lin)
+ * #30: Fix double free while switch method_type (Cheng-Wei Lin)
+ * #96(partial): [chewing] fixed utf-8 label showing process (Cheng-Wei Lin)
+ * [chewing] fixed cursor position problem (Cheng-Wei Lin)
+ * [chewing] fixed err argument of chewing_set_selKey (Cheng-Wei Lin)
+ * #112: Fix crash with GTK+ 3.x and GdkRGBA (Tommy Tsim)
+ * #60: Fix build failure under Ubuntu 11.10 32 bit (letoh)
+ * Harden module callback related codes (letoh)
+ * Fix gtab behavior for querying same pronunciation words (Tommy Tsim)
+ * Fix build warnings (letoh, Tetralet, caleb-, taylorchu)
+
+ [ Additional Information ]
+ * Detailed changlog: https://github.com/caleb-/hime/commits/master/
+   You may also git clone our repository and type "git log".
+
+
+
+0.9
+
+ The "Hime (姫) is the Japanese word for princess." Release
+
+ [ Tetralet ]
+ * Improve GTK+ 3.x support
+ * Improve strings for better usability
+ * Code clean up
+
+ [ solomonhuang ]
+ * Provide gtab2cin, table converter
+
+ [ eliu ]
+ * Sync with gcin 2.5.3
+   - fix database corruption when using Eten 26 keys and adding phrases to Tsin
+
+ [ cwlin ]
+ * Fixed chewing selection key if the kb config is not available
+
+ [ caleb- ]
+ * Update copyright and license headers
+
+ [ Additional Information ]
+ * New Icon WANTED!
+   Temporary icon modified from Wikipe-tan, licensed with GNU FDL version 1.2.
+ * IRC channel:
+   #hime at irc.freenode.net
+ * All conffiles in $HOME/.config/hime, XDG_CONFIG_HOME will be supported later
+ * Default icon path has changed to */pixmaps
+ * Some default settings are different with gcin
+
+
+
+0.9~rc1
+
+ * Initial commit, co-installable with gcin
+   Forked from gcin 2.5.1 and synced with 2.5.2, thanks to Edward Der-Hua Liu
+ * No centralized version control, feel free to fork your own! :-)
+   Current release is based on caleb-'s branch, https://github.com/caleb-/hime
+ * Apply some patches from http://debian.luna.com.tw/wheezy/
+   Thanks to Tetralet <tetralet AT gmail DOT com>
+
+ [ Additional Information ]
+ * gcb clipboard manager has been removed
+ * win32 port will not be maintained due to limited manpower.
+   Feel free to help if you need it.
+ * You can find older changes in tarball of gcin 2.5.1

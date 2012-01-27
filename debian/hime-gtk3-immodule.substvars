@@ -1,0 +1,2 @@
+shlibs:Depends=hime, libc6 (>= 2.2.5), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0)
+misc:Depends=

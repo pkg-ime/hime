@@ -1,0 +1,16 @@
+XIM=hime
+XIM_PROGRAM=/usr/bin/hime
+XIM_ARGS=
+GTK_IM_MODULE=hime
+if [ -e /usr/lib/qt3/plugins/inputmethods/im-hime.so ]; then
+    QT_IM_MODULE=hime
+else
+    QT_IM_MODULE=xim
+fi
+if [ -e /usr/lib/qt4/plugins/inputmethods/im-hime.so ]; then
+    QT4_IM_MODULE=hime
+else
+    QT4_IM_MODULE=xim
+fi
+ 
+DEPENDS=

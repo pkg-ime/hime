@@ -1,0 +1,13 @@
+?package(hime): \
+	title="hime" \
+	longtitle="hime input method editor" \
+	needs="x11" \
+	section="Applications/System/Language Environment" \
+	command="/usr/bin/hime"
+
+?package(hime): \
+	title="hime-setup" \
+	longtitle="hime-setup, for hime input method editor" \
+	needs="x11" \
+	section="Applications/System/Language Environment" \
+	command="/usr/bin/hime-setup"
